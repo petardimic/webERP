@@ -1,0 +1,1218 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>devbridge/jQuery-Autocomplete · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="devbridge/jQuery-Autocomplete" name="twitter:title" /><meta content="Contribute to jQuery-Autocomplete development by creating an account on GitHub." name="twitter:description" /><meta content="https://avatars0.githubusercontent.com/u/1701896?v=2&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars0.githubusercontent.com/u/1701896?v=2&amp;s=400" property="og:image" /><meta content="devbridge/jQuery-Autocomplete" property="og:title" /><meta content="https://github.com/devbridge/jQuery-Autocomplete" property="og:url" /><meta content="Contribute to jQuery-Autocomplete development by creating an account on GitHub." property="og:description" />
+
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    
+    <meta name="pjax-timeout" content="1000">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="0E8B5206:13B0:24603654:5427B60C" name="octolytics-dimension-request_id" />
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="F2tNcHD7wiL6IcHgfeu4vB8ycjwxL3ES8hGBSf1aVMSafxL22CVMK6sCPwInHwJMe0m0E+X1aTLrkFkkxqcyyQ==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-aac267329edcf91101f8b8afc0575e8e882615cc.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-359fc347dc18b67ad5ddc10dadeb3d11b3a62a7b.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+    <meta http-equiv="x-pjax-version" content="546ca4c7178760a7b62d7eb3d0866f56">
+
+      
+  <meta name="description" content="Contribute to jQuery-Autocomplete development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/devbridge/jQuery-Autocomplete git https://github.com/devbridge/jQuery-Autocomplete.git">
+
+  <meta content="1701896" name="octolytics-dimension-user_id" /><meta content="devbridge" name="octolytics-dimension-user_login" /><meta content="688157" name="octolytics-dimension-repository_id" /><meta content="devbridge/jQuery-Autocomplete" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="688157" name="octolytics-dimension-repository_network_root_id" /><meta content="devbridge/jQuery-Autocomplete" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/devbridge/jQuery-Autocomplete/commits/master.atom" rel="alternate" title="Recent Commits to jQuery-Autocomplete:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" ga-data-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fdevbridge%2FjQuery-Autocomplete" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search">
+      <form accept-charset="UTF-8" action="/devbridge/jQuery-Autocomplete/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/devbridge/jQuery-Autocomplete/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+    </div>
+
+      <ul class="header-nav left">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+
+  <li>
+      <a href="/login?return_to=%2Fdevbridge%2FjQuery-Autocomplete"
+    class="minibutton with-count star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/devbridge/jQuery-Autocomplete/stargazers">
+      857
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fdevbridge%2FjQuery-Autocomplete"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/devbridge/jQuery-Autocomplete/network" class="social-count">
+        598
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/devbridge" class="url fn" itemprop="url" rel="author"><span itemprop="title">devbridge</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/devbridge/jQuery-Autocomplete" class="js-current-repository js-repo-home-link">jQuery-Autocomplete</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders" data-issue-count-url="/devbridge/jQuery-Autocomplete/issues/counts">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/devbridge/jQuery-Autocomplete" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /devbridge/jQuery-Autocomplete">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/devbridge/jQuery-Autocomplete/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /devbridge/jQuery-Autocomplete/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class="js-issue-replace-counter"></span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/devbridge/jQuery-Autocomplete/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g p" data-selected-links="repo_pulls /devbridge/jQuery-Autocomplete/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class="js-pull-replace-counter"></span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped tooltipped-w" aria-label="Wiki">
+          <a href="/devbridge/jQuery-Autocomplete/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g w" data-selected-links="repo_wiki /devbridge/jQuery-Autocomplete/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/devbridge/jQuery-Autocomplete/pulse/weekly" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /devbridge/jQuery-Autocomplete/pulse/weekly">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/devbridge/jQuery-Autocomplete/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /devbridge/jQuery-Autocomplete/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+  
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field"
+           value="https://github.com/devbridge/jQuery-Autocomplete.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/devbridge/jQuery-Autocomplete.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field"
+           value="https://github.com/devbridge/jQuery-Autocomplete" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/devbridge/jQuery-Autocomplete" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+
+
+                <a href="/devbridge/jQuery-Autocomplete/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download the contents of devbridge/jQuery-Autocomplete as a zip file"
+                   title="Download the contents of devbridge/jQuery-Autocomplete as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/devbridge/jQuery-Autocomplete/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              172
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/devbridge/jQuery-Autocomplete/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            5
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/devbridge/jQuery-Autocomplete/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            13
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/devbridge/jQuery-Autocomplete/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      16
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/devbridge/jQuery-Autocomplete/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">97.6%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/devbridge/jQuery-Autocomplete/search?l=css">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">2.4%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="tooltipped tooltipped-s" aria-label="Show language statistics">
+    <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats"
+     style="background-color:#563d7c">
+  <span class="language-color" style="width:97.6%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span><span class="language-color" style="width:2.4%; background-color:#563d7c;" itemprop="keywords">CSS</span>
+    </a>
+  </div>
+
+<div class="js-deferred-content"
+  data-url="/devbridge/jQuery-Autocomplete/show_partial?partial=recently_touched_branches_list">
+</div>
+
+<div class="file-navigation in-mid-page">
+  <a href="/devbridge/jQuery-Autocomplete/find/master"
+        class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/devbridge/jQuery-Autocomplete/compare" aria-label="Compare, review, create a pull request" class="minibutton primary tooltipped tooltipped-s left compare-button" aria-label="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/custom_container"
+                 data-name="custom_container"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="custom_container">custom_container</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/develop"
+                 data-name="develop"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="develop">develop</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/develop_update-jasmine"
+                 data-name="develop_update-jasmine"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="develop_update-jasmine">develop_update-jasmine</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/gh-pages"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.14"
+                 data-name="v1.2.14"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.14">v1.2.14</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.13"
+                 data-name="v1.2.13"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.13">v1.2.13</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.12"
+                 data-name="v1.2.12"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.12">v1.2.12</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.11"
+                 data-name="v1.2.11"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.11">v1.2.11</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.10"
+                 data-name="v1.2.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.10">v1.2.10</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.9"
+                 data-name="v1.2.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.9">v1.2.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.8"
+                 data-name="v1.2.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.8">v1.2.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.7"
+                 data-name="v1.2.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.7">v1.2.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.6"
+                 data-name="v1.2.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.6">v1.2.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.5"
+                 data-name="v1.2.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.5">v1.2.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.4"
+                 data-name="v1.2.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.4">v1.2.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.3"
+                 data-name="v1.2.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.3">v1.2.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/devbridge/jQuery-Autocomplete/tree/v1.2.2"
+                 data-name="v1.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.2">v1.2.2</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/devbridge/jQuery-Autocomplete" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">jQuery-Autocomplete</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Fdevbridge%2FjQuery-Autocomplete" aria-label="Sign in to make or propose changes" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-plus" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/devbridge/jQuery-Autocomplete/commit/505485e71751256318e96d5a9db8200406107f1a" class="message" data-pjax="true" title="Merge pull request #245 from balvig/delta
+
+Use height of items to compute heightDelta">Merge pull request</a> <a href="https://github.com/devbridge/jQuery-Autocomplete/pull/245" class="issue-link" title="Use height of items to compute heightDelta">#245</a> <a href="/devbridge/jQuery-Autocomplete/commit/505485e71751256318e96d5a9db8200406107f1a" class="message" data-pjax="true" title="Merge pull request #245 from balvig/delta
+
+Use height of items to compute heightDelta">from balvig/delta</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Use height of items to compute heightDelta</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="505485e71751256318e96d5a9db8200406107f1a" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/devbridge/jQuery-Autocomplete/commit/505485e71751256318e96d5a9db8200406107f1a" class="sha-block" data-pjax>latest commit <span class="sha">505485e717</span></a>
+
+      <div class="authorship">
+        <img alt="Tomas Kirda" class="avatar" data-user="282935" height="20" src="https://avatars1.githubusercontent.com/u/282935?v=2&amp;s=40" width="20" />
+        <span class="author-name"><a href="/tkirda" rel="contributor">tkirda</a></span>
+        authored <time class="updated" datetime="2014-09-25T08:01:41-05:00" is="relative-time">September 25, 2014</time>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="file-wrap">
+    <table class="files" data-pjax>
+
+      <tbody class=""
+  data-url="/devbridge/jQuery-Autocomplete/file-list/master"
+  data-deferred-content-error="Failed to load latest commit information.">
+
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/tree/master/content" class="js-directory-link" id="9a0364b9e99bb480dd25e1f0284c8555-883c52e29b0975dfcd630d4e63be7406d3a99951" title="content">content</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/fb920860c551fa7c90ed2b7067ff3fdc13c8b649" class="message" data-pjax="true" title="Implement grouping. Resolve #83">Implement grouping. Resolve</a> <a href="https://github.com/devbridge/jQuery-Autocomplete/pull/83" class="issue-link" title="Groups function">#83</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:14:17Z" is="time-ago">September 21, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/tree/master/dist" class="js-directory-link" id="2a6d07eef8b10b84129b42424ed99327-7e840975299f94ab1b581bd2495e4c0eb3d96bed" title="dist">dist</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/d71867a09026032a1e0e88aeaec0ca66fab473f2" class="message" data-pjax="true" title="Rev for 1.2.14 release">Rev for 1.2.14 release</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:18:09Z" is="time-ago">September 21, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/tree/master/scripts" class="js-directory-link" id="d6c5855a62cf32a4dadbc2831f0f295f-877f54beda3291b731b0f8e93f2aba2a354e689d" title="scripts">scripts</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/fb920860c551fa7c90ed2b7067ff3fdc13c8b649" class="message" data-pjax="true" title="Implement grouping. Resolve #83">Implement grouping. Resolve</a> <a href="https://github.com/devbridge/jQuery-Autocomplete/pull/83" class="issue-link" title="Groups function">#83</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:14:17Z" is="time-ago">September 22, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/tree/master/spec" class="js-directory-link" id="b979c2934ac0b4ba3f08dabfdd1b2299-96b63e3cab0fce9db50c49b9904f7966843b375e" title="spec">spec</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/66b4225e473143af992365e24fba9ef217d47b4a" class="message" data-pjax="true" title="Update tests to work with Jasmine 2.0">Update tests to work with Jasmine 2.0</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-21T22:32:52Z" is="time-ago">September 21, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/tree/master/src" class="js-directory-link" id="25d902c24283ab8cfbac54dfa101ad31-340ce01118b76dc87230e3a05ca417e0c342cd28" title="src">src</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/9fbadc14515299fb077712f67d75cddc85d6d566" class="message" data-pjax="true" title="Use height of items to compute heightDelta">Use height of items to compute heightDelta</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-25T07:16:42Z" is="time-ago">September 25, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-f970be09bd2fd0fd24a411c239feef7bf2a88b8a" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/d3577df69b0648ad005f0609df88935edc20d271" class="message" data-pjax="true" title="Add grunt. Automate version setting for configuration files.">Add grunt. Automate version setting for configuration files.</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-06T20:19:40Z" is="time-ago">September 06, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-45d74a0854e50ab5f978998a5027377146c6a31c" title="bower.json">bower.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/d71867a09026032a1e0e88aeaec0ca66fab473f2" class="message" data-pjax="true" title="Rev for 1.2.14 release">Rev for 1.2.14 release</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:18:09Z" is="time-ago">September 22, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/devbridge-autocomplete.jquery.json" class="js-directory-link" id="93714fc21442b7aead8b66c339915e6a-ade1d79dd03545fef05eae0de6816fd37977e6ac" title="devbridge-autocomplete.jquery.json">devbridge-autocomplete.jquery.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/d71867a09026032a1e0e88aeaec0ca66fab473f2" class="message" data-pjax="true" title="Rev for 1.2.14 release">Rev for 1.2.14 release</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:18:09Z" is="time-ago">September 22, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/gruntfile.js" class="js-directory-link" id="595bf3fa2348192244b0319be33066b8-ab394be8b4d91ec399782cd5fa490101ec07c6e7" title="gruntfile.js">gruntfile.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/d3577df69b0648ad005f0609df88935edc20d271" class="message" data-pjax="true" title="Add grunt. Automate version setting for configuration files.">Add grunt. Automate version setting for configuration files.</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-06T20:19:40Z" is="time-ago">September 06, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/index.htm" class="js-directory-link" id="fd491768bbe8b2f208d6e5d82758228a-a3237a52607391faeb0d799ca6224dab2bd29e9d" title="index.htm">index.htm</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/fb920860c551fa7c90ed2b7067ff3fdc13c8b649" class="message" data-pjax="true" title="Implement grouping. Resolve #83">Implement grouping. Resolve</a> <a href="https://github.com/devbridge/jQuery-Autocomplete/pull/83" class="issue-link" title="Groups function">#83</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:14:17Z" is="time-ago">September 22, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/license.txt" class="js-directory-link" id="98cd14c95bb22f9d397da0603a77d950-11b3ff11a794b3542609bf10cbf41fc19d568e0f" title="license.txt">license.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/459719fc026be4e5019bf53f18ca874b8117c8b3" class="message" data-pjax="true" title="Make plugin chainable, change suggestion event handling to improve performance, change suggestions format, update readme, add Jasmine test suites, add license.">Make plugin chainable, change suggestion event handling to improve pe…</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2012-12-18T22:07:02Z" is="time-ago">December 18, 2012</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-9b302ccd6b922eddc8b0ad6d387a0b421ba30c6c" title="package.json">package.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/d71867a09026032a1e0e88aeaec0ca66fab473f2" class="message" data-pjax="true" title="Rev for 1.2.14 release">Rev for 1.2.14 release</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:18:09Z" is="time-ago">September 22, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/devbridge/jQuery-Autocomplete/blob/master/readme.md" class="js-directory-link" id="0730bb7c2e8f9ea2438b52e419dd86c9-9ea85382214ce5bc13a74dd83cf3b4590696a9cf" title="readme.md">readme.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/devbridge/jQuery-Autocomplete/commit/fb920860c551fa7c90ed2b7067ff3fdc13c8b649" class="message" data-pjax="true" title="Implement grouping. Resolve #83">Implement grouping. Resolve</a> <a href="https://github.com/devbridge/jQuery-Autocomplete/pull/83" class="issue-link" title="Groups function">#83</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-09-22T03:14:17Z" is="time-ago">September 22, 2014</time></span>
+      </td>
+    </tr>
+</tbody>
+
+    </table>
+  </div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      readme.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="user-content-ajax-autocomplete-for-jquery" class="anchor" href="#ajax-autocomplete-for-jquery" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ajax AutoComplete for jQuery</h1>
+
+<p>Ajax Autocomplete for jQuery allows you to easily create 
+autocomplete/autosuggest boxes for text input fields.</p>
+
+<p>Has no dependencies other than jQuery.</p>
+
+<p>The standard jquery.autocomplete.js file is around 2.7KB when minified via Closure Compiler and gzipped.</p>
+
+<h2>
+<a name="user-content-api" class="anchor" href="#api" aria-hidden="true"><span class="octicon octicon-link"></span></a>API</h2>
+
+<ul class="task-list">
+<li>
+<code>$(selector).autocomplete(options);</code>
+
+<ul class="task-list">
+<li>Sets up autocomplete for input field(s).</li>
+<li>
+<code>options</code>: An object literal which defines the settings to use for the autocomplete plugin.
+
+<ul class="task-list">
+<li>
+<code>serviceUrl</code>: Server side URL or callback function that returns serviceUrl string. Optional if local lookup data is provided.</li>
+<li>
+<code>ajaxSettings</code>: Any additional <a href="http://api.jquery.com/jquery.ajax/#jQuery-ajax-settings">Ajax Settings</a> that configure the jQuery Ajax request.</li>
+<li>
+<code>lookup</code>: Lookup array for the suggestions. It may be array of strings or <code>suggestion</code> object literals.
+
+<ul class="task-list">
+<li>
+<code>suggestion</code>: An object literal with the following format: <code>{ value: 'string', data: any }</code>.</li>
+</ul>
+</li>
+<li>
+<code>lookupFilter</code>: <code>function (suggestion, query, queryLowerCase) {}</code> filter function for local lookups. By default it does partial string match (case insensitive).</li>
+<li>
+<code>lookupLimit</code>: Number of maximum results to display for local lookup. Default: no limit.</li>
+<li>
+<code>onSelect</code>: <code>function (suggestion) {}</code> Callback function invoked when user selects suggestion 
+from the list. <code>this</code> inside callback refers to input HtmlElement.</li>
+<li>
+<code>minChars</code>: Minimum number of characters required to trigger autosuggest. Default: <code>1</code>.</li>
+<li>
+<code>maxHeight</code>: Maximum height of the suggestions container in pixels. Default: <code>300</code>.</li>
+<li>
+<code>deferRequestBy</code>: Number of miliseconds to defer ajax request. Default: <code>0</code>.</li>
+<li>
+<code>width</code>: Suggestions container width in pixels, e.g.: 300. Default: <code>auto</code>, takes input field width.</li>
+<li>
+<code>params</code>: Additional parameters to pass with the request, optional.</li>
+<li>
+<code>formatResult</code>: <code>function (suggestion, currentValue) {}</code> custom function to 
+format suggestion entry inside suggestions container, optional. </li>
+<li>
+<code>delimiter</code>: String or RegExp, that splits input value and takes last part to as query for suggestions.
+Useful when for example you need to fill list of  coma separated values.</li>
+<li>
+<code>zIndex</code>: 'z-index' for suggestions container. Default: <code>9999</code>.</li>
+<li>
+<code>type</code>: Ajax request type to get suggestions. Default: <code>GET</code>.</li>
+<li>
+<code>noCache</code>: Boolean value indicating whether to cache suggestion results. Default <code>false</code>.</li>
+<li>
+<code>onSearchStart</code>: <code>function (query) {}</code> called before ajax request. <code>this</code> is bound to input element.</li>
+<li>
+<code>onSearchComplete</code>: <code>function (query, suggestions) {}</code> called after ajax response is processed. <code>this</code> is bound to input element. <code>suggestions</code> is an array containing the results.</li>
+<li>
+<code>onSearchError</code>: <code>function (query, jqXHR, textStatus, errorThrown) {}</code> called if ajax request fails. <code>this</code> is bound to input element.</li>
+<li>
+<code>onInvalidateSelection</code>: <code>function () {}</code> called when input is altered after selection has been made. <code>this</code> is bound to input element.</li>
+<li>
+<code>triggerSelectOnValidInput</code>: Boolean value indicating if <code>select</code> should be triggered if it matches suggestion. Default <code>true</code>.</li>
+<li>
+<code>preventBadQueries</code>: Boolean value indicating if it shoud prevent future ajax requests for queries with the same root if no results were returned. E.g. if <code>Jam</code> returns no suggestions, it will not fire for any future query that starts with <code>Jam</code>. Default <code>true</code>. </li>
+<li>
+<code>beforeRender</code>: <code>function (container) {}</code> called before displaying the suggestions. You may manipulate suggestions DOM before it is displayed.</li>
+<li>
+<code>tabDisabled</code>: Default <code>false</code>. Set to true to leave the cursor in the input field after the user tabs to select a suggestion.</li>
+<li>
+<code>paramName</code>: Default <code>query</code>. The name of the request parameter that contains the query.</li>
+<li>
+<code>transformResult</code>: <code>function(response, originalQuery) {}</code> called after the result of the query is ready. Converts the result into response.suggestions format.</li>
+<li>
+<code>autoSelectFirst</code>: if set to <code>true</code>, first item will be selected when showing suggestions. Default value <code>false</code>.</li>
+<li>
+<code>appendTo</code>: container where suggestions will be appended. Default value <code>document.body</code>. Can be jQuery object, selector or html element. Make sure to set <code>position: absolute</code> or <code>position: relative</code> for that element.</li>
+<li>
+<code>dataType</code>: type of data returned from server. Either 'text' (default) or 'jsonp', which will cause the autocomplete to use jsonp. You may return a json object in your callback when using jsonp.</li>
+<li>
+<code>showNoSuggestionNotice</code>: Default <code>false</code>. When no matching results, display a notification label.</li>
+<li>
+<code>noSuggestionNotice</code>: Default <code>No results</code>. Text or htmlString or Element or jQuery object for no matching results label.</li>
+<li>
+<code>forceFixPosition</code>: Default: <code>false</code>. Suggestions are automatically positioned when their container is appended to body (look at <code>appendTo</code> option), in other cases suggestions are rendered but no positioning is applied.
+Set this option to force auto positioning in other cases.</li>
+<li>
+<code>orientation</code>: Default <code>bottom</code>. Vertical orientation of the displayed suggestions, available values are <code>auto</code>, <code>top</code>, <code>bottom</code>.
+If set to <code>auto</code>, the suggestions will be orientated it the way that place them closer to middle of the view port.</li>
+<li>
+<code>groupBy</code>: property name of the suggestion <code>data</code> object, by which results should be grouped.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><p>Autocomplete instance has following methods:</p>
+
+<ul class="task-list">
+<li>
+<code>setOptions(options)</code>: you may update any option at any time. Options are listed above.</li>
+<li>
+<code>clear</code>: clears suggestion cache and current suggestions suggestions.</li>
+<li>
+<code>clearCache</code>: clears suggestion cache.</li>
+<li>
+<code>disable</code>: deactivate autocomplete.</li>
+<li>
+<code>enable</code>: activates autocomplete if it was deactivated before.</li>
+<li>
+<code>hide</code>: hides suggestions.</li>
+<li>
+<code>dispose</code>: destroys autocomplete instance. All events are detached and suggestion containers removed.</li>
+</ul><p>There are two ways that you can invoke Autocomplete method. One is calling autocomplete on jQuery object and passing method name as string literal. 
+If method has arguments, arguments are passed as consecutive parameters:</p>
+
+<pre><code>$('#autocomplete').autocomplete('disable');
+$('#autocomplete').autocomplete('setOptions', options);
+</code></pre>
+
+<p>Or you can get Autocomplete instance by calling autcomplete on jQuery object without any parameters and then invoke desired method.</p>
+
+<pre><code>$('#autocomplete').autocomplete().disable();
+$('#autocomplete').autocomplete().setOptions(options);
+</code></pre>
+
+<h2>
+<a name="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Html:</p>
+
+<pre><code>&lt;input type="text" name="country" id="autocomplete"/&gt;
+</code></pre>
+
+<p>Ajax lookup:</p>
+
+<pre><code>$('#autocomplete').autocomplete({
+    serviceUrl: '/autocomplete/countries',
+    onSelect: function (suggestion) {
+        alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+    }
+});
+</code></pre>
+
+<p>Local lookup (no ajax):</p>
+
+<pre><code>var countries = [
+   { value: 'Andorra', data: 'AD' },
+   // ...
+   { value: 'Zimbabwe', data: 'ZZ' }
+];
+
+$('#autocomplete').autocomplete({
+    lookup: countries,
+    onSelect: function (suggestion) {
+        alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+    }
+});
+</code></pre>
+
+<h2>
+<a name="user-content-styling" class="anchor" href="#styling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Styling</h2>
+
+<p>Generated HTML markup for suggestions is displayed bellow. You may style it any way you'd like.</p>
+
+<pre><code>&lt;div class="autocomplete-suggestions"&gt;
+    &lt;div class="autocomplete-group"&gt;&lt;strong&gt;NHL&lt;/strong&gt;&lt;/div&gt;
+    &lt;div class="autocomplete-suggestion autocomplete-selected"&gt;...&lt;/div&gt;
+    &lt;div class="autocomplete-suggestion"&gt;...&lt;/div&gt;
+    &lt;div class="autocomplete-suggestion"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Style sample:</p>
+
+<pre><code>.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+</code></pre>
+
+<h2>
+<a name="user-content-response-format" class="anchor" href="#response-format" aria-hidden="true"><span class="octicon octicon-link"></span></a>Response Format</h2>
+
+<p>Response from the server must be JSON formatted following JavaScript object:</p>
+
+<pre><code>{
+    // Query is not required as of version 1.2.5
+    "query": "Unit",
+    "suggestions": [
+        { "value": "United Arab Emirates", "data": "AE" },
+        { "value": "United Kingdom",       "data": "UK" },
+        { "value": "United States",        "data": "US" }
+    ]
+}
+</code></pre>
+
+<p>Data can be any value or object. Data object is passed to formatResults function 
+and onSelect callback. Alternatively, if there is no data you can 
+supply just a string array for suggestions:</p>
+
+<pre><code>{
+    "query": "Unit",
+    "suggestions": ["United Arab Emirates", "United Kingdom", "United States"]
+}
+</code></pre>
+
+<h2>
+<a name="user-content-non-standard-queryresults" class="anchor" href="#non-standard-queryresults" aria-hidden="true"><span class="octicon octicon-link"></span></a>Non standard query/results</h2>
+
+<p>If your ajax service expects the query in a different format, and returns data in a different format than the standard response,
+you can supply the "paramName" and "transformResult" options:</p>
+
+<pre><code>$('#autocomplete').autocomplete({
+    paramName: 'searchString',
+    transformResult: function(response) {
+        return {
+            suggestions: $.map(response.myData, function(dataItem) {
+                return { value: dataItem.valueField, data: dataItem.dataField };
+            })
+        };
+    }
+})
+</code></pre>
+
+<h2>
+<a name="user-content-grouping-results" class="anchor" href="#grouping-results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Grouping Results</h2>
+
+<p>Specify <code>groupBy</code> option of you data property if you wish results to be displayed in groups. For example, set <code>groupBy: 'category'</code> if your suggestion data format is:</p>
+
+<pre><code>[
+    { value: 'Chicago Blackhawks', data: { category: 'NHL' } },
+    { value: 'Chicago Bulls', data: { category: 'NBA' } }
+]
+</code></pre>
+
+<p>Results will be formatted into two groups <strong>NHL</strong> and <strong>NBA</strong>.</p>
+
+<h2>
+<a name="user-content-known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Known Issues</h2>
+
+<p>If you use it with jQuery UI library it also has plugin named <code>autocomplete</code>. In this case you can use plugin alias <code>devbridgeAutocomplete</code>:</p>
+
+<pre><code>$('.autocomplete').devbridgeAutocomplete({ ... });
+</code></pre>
+
+<h2>
+<a name="user-content-license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Ajax Autocomplete for jQuery is freely distributable under the 
+terms of an MIT-style <a href="https://github.com/devbridge/jQuery-Autocomplete/blob/master/dist/license.txt">license</a>.</p>
+
+<p>Copyright notice and permission notice shall be included in all 
+copies or substantial portions of the Software.</p>
+
+<h2>
+<a name="user-content-authors" class="anchor" href="#authors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors</h2>
+
+<p>Tomas Kirda / <a href="https://twitter.com/tkirda">@tkirda</a></p></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.03550s from github-fe118-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents js-suggester-field" placeholder=""></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-ba50a1ca41995f0b006425c6db96c5669d18fd98.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-718b950d0761c12e31c63a23c232695de9d66fc4.js" type="text/javascript"></script>
+      
+      
+        <script async src="https://www.google-analytics.com/analytics.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,184 @@
+app/
+|-- commands
+|-- config
+|   |-- app.php
+|   |-- auth.php
+|   |-- cache.php
+|   |-- compile.php
+|   |-- database.php
+|   |-- local
+|   |   |-- app.php
+|   |   `-- database.php
+|   |-- mail.php
+|   |-- packages
+|   |-- queue.php
+|   |-- remote.php
+|   |-- services.php
+|   |-- session.php
+|   |-- testing
+|   |   |-- cache.php
+|   |   `-- session.php
+|   |-- view.php
+|   `-- workbench.php
+|-- controllers
+|   |-- BaseController.php
+|   |-- CategoriesController.php
+|   |-- DashboardController.php
+|   |-- HomeController.php
+|   |-- InventoryController.php
+|   |-- InventoryController.php~
+|   |-- PatientController.php
+|   |-- PurchaseController.php
+|   |-- SupplierController.php
+|   |-- SystemController.php
+|   |-- SystemController.php~
+|   `-- UserController.php
+|-- database
+|   |-- migrations
+|   |   |-- 2014_09_17_141105_patients.php
+|   |   |-- 2014_09_17_143202_add_patients.php
+|   |   |-- 2014_09_24_201438_parameters.php
+|   |   |-- 2014_09_24_201438_parameters.php~
+|   |   |-- 2014_09_26_140338_sales_category_maintenance.php
+|   |   |-- 2014_09_26_140338_sales_category_maintenance.php~
+|   |   |-- 2014_09_26_153545_inventory_items.php
+|   |   |-- 2014_09_26_153545_inventory_items.php~
+|   |   |-- 2014_09_26_170725_suppliers.php
+|   |   |-- 2014_09_26_170725_suppliers.php~
+|   |   |-- 2014_09_27_134247_locations.php
+|   |   `-- 2014_09_27_134247_locations.php~
+|   |-- production.sqlite
+|   `-- seeds
+|       `-- DatabaseSeeder.php
+|-- filters.php
+|-- lang
+|   `-- en
+|       |-- pagination.php
+|       |-- reminders.php
+|       `-- validation.php
+|-- models
+|   |-- Category.php
+|   |-- Category.php~
+|   |-- Inventory.php
+|   |-- Inventory.php~
+|   |-- Location.php
+|   |-- Parameter.php
+|   |-- patient.php
+|   |-- Supplier.php
+|   `-- User.php
+|-- routes.php
+|-- routes.php~
+|-- start
+|   |-- artisan.php
+|   |-- global.php
+|   `-- local.php
+|-- storage
+|   |-- cache
+|   |-- logs
+|   |   `-- laravel.log
+|   |-- meta
+|   |   `-- services.json
+|   |-- sessions
+|   |   `-- cbfe41e88a44b4370f43066ac93bbba795b89ab3
+|   `-- views
+|       |-- 031cb94dfac4d8166502e5ad8dc59fef
+|       |-- 085a5c0595a143a79c62fa92db48a896
+|       |-- 0e69ec115b8f5624dbaa547879aead3b
+|       |-- 1607f6552508a3a72370dd930634a125
+|       |-- 197c7eba54870ea007850acd59b96bca
+|       |-- 1f9cf914041153421b8aff4298428761
+|       |-- 32fff5a2654a416caca9f61b21ec5d96
+|       |-- 33969f5d21bbf860ae0db33afd6d70c1
+|       |-- 39da83e55038d02bfe5349cd0ac55722
+|       |-- 3a340abafc24d1f220edd42fd89e2e1e
+|       |-- 4d4371e0512d13ceb982835a0a061195
+|       |-- 50f5fdb49d4d84e06cde214e89043b44
+|       |-- 567b01e8442ace76e8ca3b2733093a11
+|       |-- 5d51190c74737ae805c72d496fc4006a
+|       |-- 5e62b28b1111d9b84607fa20ac501eca
+|       |-- 65c699cccdeff6897c33513fbe48016b
+|       |-- 68a60b49c51e2983e1e0fc7797600f74
+|       |-- 68d18edf9bf91db69be044af7d64c56f
+|       |-- 69a359c63bab961d5f67733e3c6492e6
+|       |-- 69f06b6727f2d6ce852a4ba7a90f69fa
+|       |-- 6c8653a604bcd5ffe1fb920006c3a160
+|       |-- 700d7c46ad77377076ec167d7930ea71
+|       |-- 708e976bc24d1265a47d452a001772e7
+|       |-- 71da1afa2649947497ec47baeb0217ff
+|       |-- 91226f914430c314413d604558c06834
+|       |-- 967f7ea65c82ae83de01436154fedab2
+|       |-- 9b473c2694c96cc189b21165c70bd6ed
+|       |-- a18c626edd6413965567a19255aef733
+|       |-- a728dec183092958f8dd6e492f3be812
+|       |-- a75403e324b50034b79eb0b622024315
+|       |-- ae5399ca3fa3a59da53d2639efd9eff9
+|       |-- b33c583cf749f118bcb2156220641c64
+|       |-- b6a40657b12a67cc49d56be347955dbe
+|       |-- b6a504fb3b17b832ea38ef2d7aabd603
+|       |-- b84769deb235d485ae3dce6cfa1fffd3
+|       |-- ba95a7e90159408f3d712f278b3dd5db
+|       |-- bc12b65edaf13805458cb53d35f12c80
+|       |-- bcb592700390bbd563ea7e0ea95743c8
+|       |-- bf71019756dc57c0e8fe2c8718e00c1a
+|       |-- bf89ed5d9fd395044a26081c68c18a7f
+|       |-- d37e7867bd033520767f0d3b762d3538
+|       |-- df4196301c0f363554e3dfd1296bea33
+|       |-- e16332725a8e935fae30113cb5650bbe
+|       |-- eb776314d6d04d995f7576031b335706
+|       |-- f3ba4438c43afe456f371c14638e6a2c
+|       `-- f5526ce6831a5c5d089c5cfe8fc45abd
+|-- tests
+|   |-- ExampleTest.php
+|   `-- TestCase.php
+`-- views
+    |-- account
+    |   |-- password.blade.php
+    |   |-- remind.blade.php
+    |   |-- reset.blade.php
+    |   |-- signin.blade.php
+    |   `-- signup.blade.php
+    |-- emails
+    |   `-- auth
+    |       `-- reminder.blade.php
+    |-- errors
+    |   |-- general_error.blade.php
+    |   `-- global_alert_messages.blade.php
+    |-- hello.php
+    |-- home.blade.php
+    |-- includes
+    |   |-- footer.blade.php
+    |   |-- head.blade.php
+    |   |-- header.blade.php
+    |   |-- navigation.blade.php
+    |   `-- sidebar.blade.php
+    |-- inventory
+    |   |-- add_item.blade.php
+    |   |-- add_item.blade.php~
+    |   |-- item.blade.php
+    |   `-- saved.blade.php
+    |-- layouts
+    |   `-- main.blade.php
+    |-- patient
+    |   `-- create.blade.php
+    |-- purchase
+    |   |-- purchase.blade.php
+    |   `-- purchase.blade.php~
+    |-- sales_categories
+    |   |-- edit.blade.php
+    |   |-- maintenance.blade.php
+    |   `-- saved.blade.php
+    |-- suppliers
+    |   |-- add_supplier.blade.php
+    |   `-- save.blade.php
+    |-- system
+    |   |-- edit.blade.php
+    |   |-- locations.blade.php
+    |   |-- locations.blade.php~
+    |   |-- parameters.blade.php
+    |   |-- parameters.blade.php~
+    |   `-- saved.blade.php
+    `-- user
+        |-- dashboard.blade.php
+        `-- profile.blade.php
+
+34 directories, 147 files

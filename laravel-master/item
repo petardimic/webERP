@@ -1,0 +1,12 @@
+
+FILE: .../yash/ssad23/Yash_patel_version2/app/views/inventory/add_item.blade.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | No PHP code was found in this file and short open tags are not
+   |         | allowed by this install of PHP. This file may be using short
+   |         | open tags but PHP does not allow them.
+--------------------------------------------------------------------------------
+
+Time: 40 ms, Memory: 2.75Mb
+
